@@ -1,5 +1,8 @@
 n=int(input("enter your number:"))
-if n%2==0:
-    print("even")
+if n<0:
+    print("please enter a positive number")
 else:
-    print("odd")
+    if n%2==0:
+        print("even")
+    else:
+        print("odd")
