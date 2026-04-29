@@ -10,3 +10,7 @@ def factorial(n):
         return fact
 n=int(input("enter your number:"))
 print("the factorial of",n,"is:",factorial(n))
+
+if factorial(n)==1:
+    print("the factorial of",n,"is:",factorial(n))
+    
