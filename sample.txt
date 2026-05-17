@@ -1,0 +1,3 @@
+hellow world/n welcome
+ welcome
+ this is the first time i am using the file handling
