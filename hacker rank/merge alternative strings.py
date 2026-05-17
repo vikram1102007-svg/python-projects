@@ -10,9 +10,11 @@ class Solution(object):
         a.append(word2[len(word1):])
 
         return "".join(a)
+a=input("Enter first string: ")
+b=input("Enter second string: ")
 
 n1 = Solution()
 n2 = Solution()
 
-print(n1.mergeAlternately("abc", "pqr"))
-print(n2.mergeAlternately("ab", "pqrs"))
+print(n1.mergeAlternately(a, b))
+print(n2.mergeAlternately(a, b))
