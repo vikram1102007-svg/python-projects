@@ -11,3 +11,5 @@ class Solution(object):
             return str1[:c]
         else:
             return ""
+m=str(input("Enter first string: "))
+n=str(input("Enter second string: "))
