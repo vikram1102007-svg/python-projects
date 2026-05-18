@@ -13,3 +13,5 @@ class Solution(object):
             return ""
 m=str(input("Enter first string: "))
 n=str(input("Enter second string: "))
+o=Solution()
+print(o.gcdOfStrings(m,n))
