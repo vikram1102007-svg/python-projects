@@ -14,4 +14,6 @@ class Solution(object):
 m=str(input("Enter first string: "))
 n=str(input("Enter second string: "))
 o=Solution()
-print(o.gcdOfStrings(m,n))
+print("your repetative string is: "+o.gcdOfStrings(m,n))
+print("Thank you!")
+print("Have a nice day!")
