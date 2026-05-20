@@ -9,3 +9,5 @@ class Solution(object):
             else:
                 m.append(False)
         return m
+c1=Solution()
+print(c1.kidsWithCandies([2,3,5,1,3],3))
